@@ -19,6 +19,7 @@ body {
   min-height: 100vh;
   min-width: 100vw;
   text-align: center;
+  color: white;
 }
 
 html {
@@ -53,8 +54,12 @@ p {
 }
 
 section {
-  background-color:	rgba(240, 240, 240, 0.8);
+  background-color:	rgba(15, 15, 15, 0.8);
   padding: 1.5rem 0.65625rem;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 25px;
+  margin-top:10px;
 }
 
 .bare-list {
@@ -71,7 +76,7 @@ section {
   border-style: solid;
   border-width: 2px;
   border-radius: 0.5rem;
-  color: black;
+  color: white;
   display: inline-block;
   font-size: 1em;
   line-height: calc(2rem - 4px);
