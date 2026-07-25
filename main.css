@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+}
+
+a:hover {
+  text-decoration-line: none;
+}
+
+body {
+  align-items: center;
+  background-image: url(bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  text-align: center;
+}
+
+html {
+  --transage-orange: #FBA254;
+  --transage-pink: #F39EF2;
+  --transage-purple: #CB68FF;
+  --transage-yellow: #FDF78C;
+  font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-size: 11pt;
+}
+
+img,
+main {
+  max-width: 100%;
+}
+
+img {
+  width: 13rem;
+}
+
+main {
+  padding: 2.25rem 1.5rem;
+  width: 45rem;
+}
+
+p, ul {
+  text-align: start;
+}
+
+p {
+  line-height: 1.5;
+}
+
+section {
+  background-color:	rgba(240, 240, 240, 0.8);
+  padding: 1.5rem 0.65625rem;
+}
+
+.bare-list {
+  padding-inline-start: 0;
+}
+
+.bare-list li {
+  list-style-type: none;
+}
+
+.button {
+  align-items: center;
+  border-color: var(--transage-orange);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 0.5rem;
+  color: black;
+  display: inline-block;
+  font-size: 1em;
+  line-height: calc(2rem - 4px);
+  max-width: 32rem;
+  min-height: 2rem;
+  padding-inline: 1rem;
+  text-align: center;
+  text-decoration-line: none;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.colored-text {
+  background-color: black;
+}
+
+.flex-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  justify-content: center;
+}
+
+.flex-list li {
+  flex-grow: 1;
+}
+
+.main-heading {
+  font-family: 'Comic Neue', cursive;
+  font-size: 1.875em;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-block: 0 0.5625rem;
+}
+
+.next-link::after {
+  content: "\3E";
+  margin-inline-start: 4px;
+}
+
+.normal-list {
+  margin-block: 1.5rem 0;
+  margin-inline: auto;
+  padding-inline-start: 1.30rem;
+  max-width: 30rem;
+}
+
+.normal-list li::marker {
+  color: var(--transage-orange);
+  font-size: 1.05rem;
+}
+
+.normal-list li:nth-child(n+2) {
+  margin-top: 0.83rem;
+}
+
+.orange-text {
+  color: var(--transage-orange);
+}
+
+.pink-text {
+  color: var(--transage-pink);
+}
+
+.prev-link::before {
+  content: "\3C";
+  margin-inline-end: 4px;
+}
+
+.purple-text {
+  color: var(--transage-purple);
+  padding: 1rem;
+}
+
+.topic-heading {
+  font-size: 1em;
+  margin-block: 0 1.5rem;
+}
+
+.topic-heading::after,
+.topic-heading::before {
+  content: "\2728";
+  margin-inline: 4px;
+}
+
+.white-text {
+  color: white;
+}
+
+.yellow-text {
+  color: var(--transage-yellow);
+}
+
+@media (min-width: 321px) {
+  
+}
+
+@media (min-width: 361px) {
+  main {
+    padding: 3rem 2rem;
+  }
+
+  section {
+    padding: 1.5rem 0.65625rem;
+  }
+
+  .main-heading {
+    margin-bottom: 0.75rem;
+  }
+}
+
+@media (min-width: 421px) {
+  .button {
+    max-width: none;
+    width: auto;
+  }
+
+  .flex-list li {
+    flex-grow: 0;
+  }
+}
+
+@media (min-width: 737px) {
+  img {
+    width: 16rem;
+  }
+
+  .flex-list {
+    gap: 0.75rem;
+  }
+
+  .main-heading {
+    font-size: 2.125em;
+  }
+
+  section {
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 981px) {
+  html {
+	  font-size: 13pt;
+  }
+}
+
+@media (min-width: 1681px) {
+  html {
+	  font-size: 18pt;
+  }
+}
