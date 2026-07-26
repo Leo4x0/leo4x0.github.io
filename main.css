@@ -31,6 +31,11 @@ html {
   font-size: 11pt;
 }
 
+h3 {
+	font-size: 0.8em;
+  	margin-block: 0 1.5rem;
+}
+
 img,
 main {
   max-width: 100%;
