@@ -151,7 +151,7 @@ section {
   margin-inline-end: 4px;
 }
 
-.purple-text {
+a, .purple-text {
   color: var(--transage-purple);
   padding: 1rem;
 }
