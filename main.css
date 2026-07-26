@@ -156,12 +156,6 @@ section {
   margin-block: 0 1.5rem;
 }
 
-.topic-heading::after,
-.topic-heading::before {
-  content: "\2728";
-  margin-inline: 4px;
-}
-
 .white-text {
   color: white;
 }
