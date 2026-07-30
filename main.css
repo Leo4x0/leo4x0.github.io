@@ -14,12 +14,27 @@ a:visited {
   color: var(--transage-purple);
 }
 
-a.button{
+a.button, a.fixed{
 	color: white;
 }
 
-a.button:visited{
+a.button:visited, a.fixed:visited{
   color: white;
+}
+
+.fixed {
+  position: fixed;
+  top: 20px;
+  left: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
 }
 
 body {
